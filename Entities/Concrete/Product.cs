@@ -9,7 +9,7 @@ namespace Entities.Concrete
 {
     public class Product:IEntity
     {
-        //Product entitisine DataAccess ve Business katmanlarından erişmek zorundayım bundan dolayı public erişim belirleyicisini seçtik. Default olarak Csharpta erişim belirleyicisi internal. Internal olduğu zaman bu class sadece Entities klasörünün altından erişebiliyorum.
+        //Product entitisine DataAccess ve Business katmanlarından erişmek zorundayım bundan dolayı public erişim belirleyicisini seçtik. Default olarak Csharpta erişim belirleyicisi internal. Internal olduğu zaman bu class sadece Entities projesi altından erişebiliyorum. Proje bazlı, dll bazlı bir erişim belirleyici.
 
         public int ProductId { get; set; }
 

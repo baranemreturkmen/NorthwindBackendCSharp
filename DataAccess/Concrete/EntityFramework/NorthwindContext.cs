@@ -19,7 +19,7 @@ namespace DataAccess.Concrete.EntityFramework
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 
-            //Bağlantıyı ayarladım nereye bağlanacağımı görüyorum. Kullanıcı adı ve şifrem veri tabanına bağlanırken görünsünn istemiyorum bundan dolayı Trusted_Connection=true'ı kullandık.
+            //Bağlantıyı ayarladım nereye bağlanacağımı görüyorum. Kullanıcı adı ve şifrem veri tabanına bağlanırken görünsün istemiyorum bundan dolayı Trusted_Connection=true'ı kullandık.
 
             optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=Northwind;Trusted_Connection=true");
 
